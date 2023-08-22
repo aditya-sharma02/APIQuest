@@ -1,0 +1,174 @@
+.body {
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav1 {
+    width: 30%;
+}
+
+.button {
+    background-color: rgb(37, 34, 34);
+    color: aliceblue;
+    /* padding: 3px auto; */
+    font-size: x-large;
+    border-radius: 10px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    transition: all 0.1s ease;
+}
+
+.button:hover {
+    background-color: rgb(169, 98, 98);
+}
+
+.input {
+    /* width: 80%; */
+    font-size: x-large;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.searchela {
+    font-size: 50px;
+    width: 50%;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+
+}
+
+.cards {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 40px;
+    height: auto;
+    text-justify: distribute;
+    border-radius: 05%;
+    box-shadow: 1px 1px 31px gray;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% auto;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.details {
+    padding: 5vh auto;
+    width: 60%;
+}
+
+.img {
+    width: 30%;
+    /* background-color: pink; */
+}
+
+.image {
+    width: 40%;
+}
+
+.name {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.tag {
+
+    text-align: center;
+    color: gray;
+}
+
+.date {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    text-align: left;
+    color: gray;
+}
+
+.des {
+    margin-top: 10px;
+    font-size: large;
+
+}
+
+.ingre {
+    margin: 10px 5px;
+}
+
+.ph {
+    color: red;
+    position: absolute;
+    top: 0%;
+    right: 05%;
+    font-size: x-large;
+}
+.hopes{
+
+}
+@media(max-width:1000px) {
+    .searchela {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav1 {
+        width: 50%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .nav2 {
+        width: 30%;
+    }
+
+    .button {
+        padding: 5px 10px;
+        font-size: large;
+    }
+
+    .details {
+        width: 80%;
+    }
+
+    .img {
+        text-align: center;
+        width: 25%;
+        /* background-color: pink; */
+    }
+
+    .card {
+        width: 90%;
+        padding: 40px 0px;
+    }
+    .cards{
+        margin-top: 10vh;
+    }
+}
